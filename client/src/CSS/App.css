@@ -13,3 +13,19 @@
   --location: #EF5757;
 --shedule: #E1AE4A;
 }
+
+.App{
+  overflow: hidden;
+  color:aliceblue;
+  background-color: black;
+  padding: 1rem 1rem;
+}
+
+.blur{ 
+  position: absolute;
+  width: 22rem;
+  height: 14rem;
+  border-radius: 50%;
+  background: #8a7e7f;
+  filter: blur(72px);
+}
