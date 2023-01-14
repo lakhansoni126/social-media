@@ -3,7 +3,7 @@
   --orange: #fca61f;
   --black: #242d49;
   --gray: rgba(36, 45, 73, 0.65);
-  --profileShadow: 0px 4px 17px 2px rgba(0, 0, 0, 0.25);
+  --profileShadow: 0px 4px 17px 2px rgba(96, 94, 94, 0.766);
   --hrColor: #cfcdcd;
   --cardColor: rgba(255, 255, 255, 0.64);
   --buttonBg: linear-gradient(98.63deg, #f9a225 0%, #f95f35 100%);
@@ -29,3 +29,4 @@
   background: #8a7e7f;
   filter: blur(72px);
 }
+
