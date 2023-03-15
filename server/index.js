@@ -3,7 +3,7 @@ import bodyParser from 'body-parser';
 import mongoose, { connect } from 'mongoose';
 import dotenv from 'dotenv';
 import AuthRoute from './Routes/AuthRoute.js'
-
+import UserRoute from './Routes/UserRoute.js'
 
 //
 
@@ -22,6 +22,7 @@ mongoose
  
 
 app.use('/auth', AuthRoute)
+app.use('/user', UserRoute)
 
 app.post("/register", async (req, resp) => {
     let user = new User(req.body);
