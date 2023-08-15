@@ -4,7 +4,7 @@
     flex-direction: column;
     position: relative;
     gap: 1rem;
-    background-color: rgba(255, 255, 255, 0.93);
+    background-color:rgba(236, 236, 236, 0.144);
     overflow-x:clip;
 }
 
@@ -18,7 +18,8 @@
 
 .ProfileImages  img:nth-of-type(1){
     width: 100%;
-    
+    height: 200px;
+    object-fit:cover;
    
 }
 .ProfileImages  img:nth-of-type(2){
@@ -32,7 +33,7 @@
 
 .ProfileName{
     display: flex;
-    color: rgb(54, 50, 50);
+    color: rgb(255, 255, 255);
     flex-direction: column;
     align-items: center;
     margin-top: 3rem;
@@ -74,11 +75,11 @@
 
 .follow span:nth-of-type(1){
     font-weight: bold;
-    color: rgb(46, 41, 41);
+    color: rgb(255, 255, 255);
 
 }
 .follow span:nth-of-type(2){
-    color: rgb(26, 22, 22);
+    color: rgb(238, 238, 238);
     font-size:1rem ;
 }
 
